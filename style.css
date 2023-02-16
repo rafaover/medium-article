@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+/* font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+.banner-container {
+  background: linear-gradient(to bottom, rgba(22, 13, 31, 0.52), rgba(63, 48, 90, 0.73)),
+    url(https://www.frontline-consultancy.com/wp-content/uploads/2022/05/Software-1010-%C3%97-674px.png);
+  background-size: cover;
+  height: 170px;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.title-container {
+  padding: 22%;
+  padding-top: 2%;
+  text-align: left;
+  letter-spacing: 0.7px;
+  font-size: 140%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  color: #fffffe;
+}
+
+.title-container p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+  line-height: 1;
+  letter-spacing: 0.7px;
+  color: #fffffe;
+}
+
+.article-container {
+  padding: 22%;
+  padding-top: 3%;
+  text-align: left;
+  color: #242222;
+  text-align: justify;
+}
+
+.article-container p {
+  font-family: "Notos Sans KR", sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+  line-height: 2;
+  letter-spacing: 0.7px;
+  color: dimgrey;
+}
+
+.article-container h2 {
+  padding-top: 2%;
+  font-family: "Notos Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 140%;
+  line-height: 1.5;
+  color: darkslategrey;
+}
+
+.link-inside-text {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-inside-text:hover {
+  color: beige;
+  background-color: #31243d;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#top-return {
+  background-color: hover #31243d;
+  padding-top: 2%;
+  text-align: left;
+  letter-spacing: 0.7px;
+  font-size: 180%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  color: #3b2444;
+}
